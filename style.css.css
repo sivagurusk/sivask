@@ -1,0 +1,190 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    background-color: rgb(20, 3, 51);
+}
+
+h1{
+    letter-spacing: 5px;
+    margin: 25px;
+    color: lawngreen;
+    text-shadow: 2px 2px 2px black;
+    background-color: grey;
+    
+}
+h1:hover{
+    cursor: pointer;
+    color:aqua;
+    transition: 1.5s;
+    background-color: grey;
+}
+
+nav a li{
+    text-decoration: none;
+    display: inline-block;
+    letter-spacing: 2px;
+    color: yellowgreen;
+    padding: 10px;
+    margin-top: 25px;
+    font-family:sans-serif;
+    background-color: grey;
+}
+nav a li:hover{
+    background-color: grey;
+    color:red;
+    border-radius: 20px;
+    transition: 1.5s;
+}
+header{
+    background-color: grey;
+    display: flex;
+    justify-content: space-between;
+    animation: header 2s ease-in-out;
+}
+@keyframes header{
+    0%{
+        transform: translateY(-100%);
+
+    }
+    100%{
+        transform: translatex(0%);
+    }
+}
+
+.main-image{
+    height: 500px;
+    width: 95%;
+    box-shadow: 10px 17px 30px black;
+    border-radius: 50px;
+    object-fit: cover;
+    object-position: center;
+    background-repeat: no-repeat;
+    background-image: url(What_is_the_Importance_of_Technology.jpg);
+    background-size: cover;
+    background-clip: content-box;
+    margin:50px;
+    
+}
+nav{
+    background-color: grey;
+}
+
+.html{
+    height: 550px;
+    width:300px;
+    box-shadow: 10px 17px 30px black;
+    border-radius: 50px;
+    margin: 40px;
+    
+}
+.css{
+    height: 550px;
+    width:300px;
+    box-shadow: 10px 17px 30px black;
+    border-radius: 50px;
+    margin: 40px;
+    
+}
+.javascript{
+    height: 550px;
+    width:300px;
+    box-shadow: 10px 17px 30px black;
+    border-radius: 50px;
+    margin: 40px;
+}
+.python{
+    height: 550px;
+    width:300px;
+    box-shadow: 10px 17px 30px black;
+    border-radius: 50px;
+    margin: 40px;
+    
+}
+.java{
+    height: 550px;
+    width:300px;
+    box-shadow: 10px 17px 30px black;
+    border-radius: 50px;
+    margin: 40px;
+    
+}
+.c{
+    height: 550px;
+    width:300px;
+    box-shadow: 10px 17px 30px black;
+    border-radius: 50px;
+    margin: 40px;
+    
+}
+img{
+    height:200px;
+    width:200px;
+    border-radius: 20px;
+    border-color: aqua 2px;
+    margin: 50px;
+}
+section{
+    display: inline-flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+h2{
+    text-align: center;
+    color:orangered;
+    text-shadow: 2px 2px 2px black;
+    margin:10px;
+}
+p{
+    text-align: justify;
+    align-items: center;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: cornflowerblue;
+}
+.form{
+    box-shadow: 10px 20px 30px black;
+    height: 500px;
+    width:600px;
+    background-color: rgb(20, 3, 51); ;
+    color: aqua;
+    
+    
+}
+h3{
+    margin-right: 10px;
+}
+.name{
+    display: inline-flex;
+    margin-left: 100px;
+    
+    
+}
+.mail{
+    display: inline-flex;
+    margin-left: 100px;
+    margin-top: 20px;
+    
+}
+.textarea{
+    color:red
+    margin-left: 100px;
+    margin-top: 20px;
+}
+button{
+    margin-left: 180px;
+    padding:10px;
+    background-color:chartreuse;
+    color:red;
+    border-radius: 20px;
+}
+footer{
+    text-align: center;
+    font: bolder;
+    letter-spacing: 10px;
+    text-shadow: 2px 2px 2px black;
+    background-color: grey;
+    color: chartreuse;
+    padding:20px;
+}
+label{
+    background-color: grey;
+}
